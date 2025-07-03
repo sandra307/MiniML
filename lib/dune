@@ -1,0 +1,5 @@
+(library
+ (name miniml)
+ (modules ast types env infer eval parser substitution)
+ (libraries str))
+
